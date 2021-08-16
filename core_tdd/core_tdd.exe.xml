@@ -1,0 +1,116 @@
+<testsuites>
+	<testsuite name="AllTests" tests="40">
+		<testcase classname="AllTests" name="coreNOPTest"/>
+		<testcase classname="AllTests" name="coreRSBSTest"/>
+		<testcase classname="AllTests" name="coreCMNTest"/>
+		<testcase classname="AllTests" name="coreMULSTest"/>
+		<testcase classname="AllTests" name="coreMVNSTest"/>
+		<testcase classname="AllTests" name="coreADD_T2Test"/>
+		<testcase classname="AllTests" name="coreCMP_T2Test"/>
+		<testcase classname="AllTests" name="coreSTRH_T1Test"/>
+		<testcase classname="AllTests" name="coreSTRB_T1Test"/>
+		<testcase classname="AllTests" name="coreLDRSB_T1Test"/>
+		<testcase classname="AllTests" name="coreLDRH_T1Test"/>
+		<testcase classname="AllTests" name="coreLDRSH_T1Test"/>
+		<testcase classname="AllTests" name="coreSTRH_im_T1Test"/>
+		<testcase classname="AllTests" name="coreLDRH_im_T1Test"/>
+		<testcase classname="AllTests" name="coreADR_T1Test"/>
+		<testcase classname="AllTests" name="coreADDS_imm3_T1Test">
+			<failure message="..\src\tests\core_inst\coreADD_T2Test.cpp:167 coreADDS_imm3_T1Test: ADDS T1:start writing tests">
+coreADDS_imm3_T1Test: ADDS T1:start writing tests
+			</failure>
+		</testcase>
+		<testcase classname="AllTests" name="coreADDS_imm8_T2Test">
+			<failure message="..\src\tests\core_inst\coreADD_T2Test.cpp:172 coreADDS_imm8_T2Test: ADDS T2:start writing tests">
+coreADDS_imm8_T2Test: ADDS T2:start writing tests
+			</failure>
+		</testcase>
+		<testcase classname="AllTests" name="coreADCS_T1Test">
+			<failure message="..\src\tests\core_inst\coreADD_T2Test.cpp:180 coreADCS_T1Test: ADCS T1:start writing tests">
+coreADCS_T1Test: ADCS T1:start writing tests
+			</failure>
+		</testcase>
+		<testcase classname="AllTests" name="coreSXTHTest"/>
+		<testcase classname="AllTests" name="coreSXTBTest"/>
+		<testcase classname="AllTests" name="coreUXTHTest"/>
+		<testcase classname="AllTests" name="coreUDFT1Test">
+			<failure message="..\src\tests\core_inst\coreBTest.cpp:44 coreUDFT1Test: pMcu-&gt;core-&gt;state == cpu_Running">
+coreUDFT1Test: pMcu-&gt;core-&gt;state == cpu_Running
+			</failure>
+		</testcase>
+		<testcase classname="AllTests" name="coreUDFT2Test">
+			<failure message="..\src\tests\core_inst\coreBTest.cpp:75 coreUDFT2Test: pMcu-&gt;core-&gt;pc == pc_val+2">
+coreUDFT2Test: pMcu-&gt;core-&gt;pc == pc_val+2
+			</failure>
+		</testcase>
+		<testcase classname="AllTests" name="coreSVCTest">
+			<failure message="..\src\tests\core_inst\coreBTest.cpp:105 coreSVCTest: pMcu-&gt;core-&gt;state == cpu_Running">
+coreSVCTest: pMcu-&gt;core-&gt;state == cpu_Running
+			</failure>
+		</testcase>
+		<testcase classname="AllTests" name="coreCPSTest">
+			<failure message="..\src\tests\core_inst\coreCPSTest.cpp:45 coreCPSTest: pMcu-&gt;core-&gt;state == cpu_Running">
+coreCPSTest: pMcu-&gt;core-&gt;state == cpu_Running
+			</failure>
+		</testcase>
+		<testcase classname="AllTests" name="coreREVTest"/>
+		<testcase classname="AllTests" name="coreREV16Test"/>
+		<testcase classname="AllTests" name="coreREVSHTest"/>
+		<testcase classname="AllTests" name="coreBKPTTest">
+			<failure message="..\src\tests\core_inst\coreBKPTTest.cpp:20 coreBKPTTest: REVSH:start writing tests">
+coreBKPTTest: REVSH:start writing tests
+			</failure>
+		</testcase>
+		<testcase classname="AllTests" name="coreWFETest">
+			<failure message="..\src\m0pi_tdd.cpp:25 coreWFETest: WFE:start writing tests">
+coreWFETest: WFE:start writing tests
+			</failure>
+		</testcase>
+		<testcase classname="AllTests" name="coreWFITest">
+			<failure message="..\src\m0pi_tdd.cpp:30 coreWFITest: WFE:start writing tests">
+coreWFITest: WFE:start writing tests
+			</failure>
+		</testcase>
+		<testcase classname="AllTests" name="coreSEVTest">
+			<failure message="..\src\m0pi_tdd.cpp:35 coreSEVTest: SEV:start writing tests">
+coreSEVTest: SEV:start writing tests
+			</failure>
+		</testcase>
+		<testcase classname="AllTests" name="coreSUB_imm3_T1Test">
+			<failure message="..\src\tests\core_inst\coreSUBTest.cpp:22 coreSUB_imm3_T1Test: SUBS IMM3 T1:start writing tests">
+coreSUB_imm3_T1Test: SUBS IMM3 T1:start writing tests
+			</failure>
+		</testcase>
+		<testcase classname="AllTests" name="coreSUB_imm8_T2Test">
+			<failure message="..\src\tests\core_inst\coreSUBTest.cpp:30 coreSUB_imm8_T2Test: SUBS IMM8 T2:start writing tests">
+coreSUB_imm8_T2Test: SUBS IMM8 T2:start writing tests
+			</failure>
+		</testcase>
+		<testcase classname="AllTests" name="coreSUB_reg_T1Test">
+			<failure message="..\src\tests\core_inst\coreSUBTest.cpp:37 coreSUB_reg_T1Test: SUBS REG T1:start writing tests">
+coreSUB_reg_T1Test: SUBS REG T1:start writing tests
+			</failure>
+		</testcase>
+		<testcase classname="AllTests" name="coreSBC_reg_T1Test">
+			<failure message="..\src\tests\core_inst\coreSUBTest.cpp:45 coreSBC_reg_T1Test: SBC REG T1:start writing tests">
+coreSBC_reg_T1Test: SBC REG T1:start writing tests
+			</failure>
+		</testcase>
+		<testcase classname="AllTests" name="coreCMP_reg_T1Test">
+			<failure message="..\src\tests\core_inst\coreCMP_T2Test.cpp:222 coreCMP_reg_T1Test: CMP REG T1:start writing tests">
+coreCMP_reg_T1Test: CMP REG T1:start writing tests
+			</failure>
+		</testcase>
+		<testcase classname="AllTests" name="coreCMN_reg_T1Test">
+			<failure message="..\src\tests\core_inst\coreCMP_T2Test.cpp:230 coreCMN_reg_T1Test: CMN REG T1:start writing tests">
+coreCMN_reg_T1Test: CMN REG T1:start writing tests
+			</failure>
+		</testcase>
+		<testcase classname="AllTests" name="mcuCreateAndInitTest"/>
+		<testcase classname="AllTests" name="simGpioTest">
+			<failure message="..\src\tests\sim\simGpioTest.cpp:126 simGpioTest: testVal == PIN_FLOATING_VALUE">
+simGpioTest: testVal == PIN_FLOATING_VALUE
+			</failure>
+		</testcase>
+	</testsuite>
+</testsuites>
